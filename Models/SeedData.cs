@@ -14,6 +14,9 @@ public static class SeedData
             serviceProvider.GetRequiredService<
                 DbContextOptions<MvcMovieContext>>()))
         {
+            // https://stackoverflow.com/questions/42355481/how-to-auto-create-database-on-first-run
+            context.Database.EnsureCreated();
+
             // Look for any movies.
             if (context.Movie.Any())
             {
