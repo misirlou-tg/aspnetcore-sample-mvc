@@ -6,5 +6,5 @@ https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/tutorials/first-m
 The instructions for the tutorial are here:
 https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc
 
-After populating this repo I realized that it requires a local SqlServer and I never continued on with this sample
-
+I took the completed project and went back through the instructions to convert
+it to SQLite
